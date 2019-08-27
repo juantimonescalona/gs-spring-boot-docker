@@ -6,7 +6,7 @@
 
 This guide walks you through the process of building a https://docker.com[Docker] image for running a Spring Boot application.
 
-== What you'll build
+== What you'll build :)
 
 https://docker.com[Docker] is a Linux container management toolkit with a "social" aspect, allowing users to publish container images and consume those published by others. A Docker image is a recipe for running a containerized process, and in this guide we will build one for a simple Spring boot application.
 
