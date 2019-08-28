@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: jtimon
-        image: jtimon/prueba:#buildnumber
+        image: prueba:#buildnumber
         ports:
         - containerPort: 8080
