@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jtimon-deployment
+  labels:
+    app: jtimon
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: jtimon
+  template:
+    metadata:
+      labels:
+        app: jtimon
+    spec:
+      containers:
+      - name: jtimon
+        image: jtimon/prueba:${BUILD_NUMBER}
+        ports:
+        - containerPort: 8080
